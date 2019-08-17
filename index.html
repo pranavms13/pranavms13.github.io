@@ -244,7 +244,7 @@
 						</div>
 					</div>							
 					<div class="row d-flex justify-content-center">
-						<div class="col-lg-6 col-md-6 qty-left">
+						<!--<div class="col-lg-6 col-md-6 qty-left">
 							<div class="single-qly">
 								<h3 class="text-uppercase">Spondonit</h3>
 								<p>July 2015 to Present</p>
@@ -262,8 +262,8 @@
 									All users on MySpace will know that there are millions of <br>people out there. Every day besides.
 								</p>								
 							</div>							
-						</div>
-						<div class="col-lg-6 col-md-6 qty-right">
+						</div>-->
+						<div class="col-lg-6 col-md-6"> <!--qty-right removed-->
 							<div class="single-qly">
 								<h4 class="pb-20">Masters in Graphics & Fine Arts</h4>
 								<p><b>Session</b>: 2010-11</p>								
@@ -299,38 +299,12 @@
 						</div>
 					</div>					
 					<div class="row">
-						<div class="col-lg-6 project-left">
-							<div class="single-project pb-100">
-								<img class="img-fluid" src="img/Bootstrap4Certificate.jpg" alt="Bootstrap Certificate" width="500" height="250" href="cert/BS4Certificate.pdf">
-								<h4 class="pt-100 pb-30"><a href="#">Panda Illustration</a></h4>
-								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
-								</p>
-							</div>
-							<div class="single-project">
-								<img class="img-fluid" src="img/l3.jpg" alt="">
-								<h4 class="pt-100 pb-30"><a href="#">Panda Illustration</a></h4>
-								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
-								</p>
-							</div>							
+						<div class="col-12 col-md-4">
+							<img src="img/Bootstrap4Certificate.jpg" class="img-fluid">
 						</div>
-						<div class="col-lg-6 project-right">
-							<div class="single-project">
-								<h4 class="pt-30 pb-30"><a href="https://www.coursera.org/account/accomplishments/verify/J699W4LJ3VG9">Front-End Web UI Frameworks and Tools: Bootstrap 4</a></h4>
-								<p class=" pb-100">
-									Front-End Web UI Frameworks and Tools: Bootstrap 4 by The Hong Kong University of Science and Technology on Coursera. Certificate earned at Friday, August 16, 2019 4:00 PM GMT
-									<hr><a href="cert/BS4Certificate.pdf">~ View Certificate PDF ~</a><hr><br>
-								</p>
-								<img class="img-fluid" src="img/l2.jpg" alt="">
-							</div>
-							<div class="single-project">
-								<h4 class="pt-100 pb-30"><a href="#">Panda Illustration</a></h4>
-								<p class=" pb-30">
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
-								</p>
-								<img class="img-fluid" src="img/l4.jpg" alt="">								
-							</div>								
+						<div class="col-12 col-md-8">
+							<h4 class="pt-30 pb-30">Front-End Web UI Frameworks and Tools: Bootstrap 4</h4>
+							<p>Front-End Web UI Frameworks and Tools: Bootstrap 4 by The Hong Kong University of Science and Technology on Coursera. Certificate earned at Friday, August 16, 2019 4:00 PM GMT</p>
 						</div>
 					</div>
 				</div>	
@@ -426,22 +400,25 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-20 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">If you need, Just drop us a line</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">Drop me a line</h1>
+								<p>I'll Reply ASAP..</p>
 							</div>
 						</div>
 					</div>										
-					<form class="form-area mt-60" id="myForm" action="mail.php" method="post" class="contact-form text-right">
+					<form class="form-area mt-60" id="myForm" action="http://chatdbsimple.000webhostapp.com/api/bot.php" method="post" class="contact-form text-right" target="_blank">
 						<div class="row">	
 						<div class="col-lg-6 form-group">
 							<label for="name">Name :</label>
-							<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+							<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required type="text">
 							<label for="email">Email :</label>
-							<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+							<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required type="email">
 							<label for="Subject">Subject :</label>
-							<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+							<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required type="text">
 						</div>
 						<div class="col-lg-6 form-group">
+							<label for="phone">Phone :</label>
+							<input name="phone" placeholder="Enter your Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required type="tel">
+							<label for="message">Message :</label>
 							<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
 							<button class="primary-btn mt-20">Send Message<span class="lnr lnr-arrow-right"></span></button>
 							<div class="alert-msg">								
@@ -456,45 +433,10 @@
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>About Us</h6>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
-								<div class="" id="mc_embed_signup">
-
-										<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-
-										<div class="d-flex flex-row">
-
-											<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-
-
-				                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-				                            	<div style="position: absolute; left: -5000px;">
-													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-												</div>
-				                          	
-											<!-- <div class="col-lg-4 col-md-4">
-												<button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
-											</div>  -->
-										</div>		
-										<div class="info"></div>
-										</form>
-								</div>
-								</div>
-						</div>							
+					<div class="row justify-content-center">
 						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
-								<h6>Follow Us</h6>
+								<h6>Follow Me</h6>
 								<p>Let us be social</p>
 								<div class="footer-social d-flex align-items-center">
 									<a href="#"><i class="fa fa-facebook"></i></a>
