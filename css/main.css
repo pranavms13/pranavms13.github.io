@@ -1957,15 +1957,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .default-header, .dropdown-menu, .banner-area, .myself-wrap .desc .talk-btn, .skillbar-bar, .single-feature:hover, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #fc4a1a 0%, #f7b733 100%);
-  background-image: -webkit-linear-gradient(0deg, #fc4a1a 0%, #f7b733 100%);
-  background-image: -ms-linear-gradient(0deg, #fc4a1a 0%, #f7b733 100%);
+  background-image: -moz-linear-gradient(0deg, #2f73da 0%, #ff5252 100%);
+  background-image: -webkit-linear-gradient(0deg, #2f73da 0%, #ff5252 100%);
+  background-image: -ms-linear-gradient(0deg, #2f73da 0%, #ff5252 100%);
 }
 
 .p1-gradient-color, .single-service a:hover, .footer-social a:hover i, .single-footer-widget .bb-btn {
-  background: -moz-linear-gradient(0deg, #fc4a1a 0%, #f7b733 100%);
-  background: -webkit-linear-gradient(0deg, #fc4a1a 0%, #f7b733 100%);
-  background: -ms-linear-gradient(0deg, #fc4a1a 0%, #f7b733 100%);
+  background: -moz-linear-gradient(0deg, #2f73da 0%, #ff5252 100%);
+  background: -webkit-linear-gradient(0deg, #2f73da 0%, #ff5252 100%);
+  background: -ms-linear-gradient(0deg, #2f73da 0%, #ff5252 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
