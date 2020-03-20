@@ -74,9 +74,10 @@
 			</div>
             </section>
             <script>
-                var Android = /(android)/i.test(navigator.userAgent); 
-                if(Android) { 
-                    window.location.href = "upi://pay?pa=pranavms@dbs&pn=PranavMS";
+                function don(){
+                    if(/Android|iPhone|Windows Phone/i.test(navigator.userAgent)) {
+                        window.location.href = "upi://pay?pa=pranavms@dbs&pn=PranavMS";
+                    }
                 }
             </script>
         </body>
