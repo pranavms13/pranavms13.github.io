@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<!-- No Cache -->
+		<meta http-equiv="Cache-control" content="no-cache">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="Pranav M S">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Pranav M S</title>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<link href="vendor/devicon/devicon.min.css" rel="stylesheet">
+		<link href="vendor/fa/fa.css" rel="stylesheet">
+		<link href="vendor/fa/bcni.min.css" rel="stylesheet">
+
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body onload="don()">
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">
+				<!-- Start Header Area -->
+				<header class="default-header">
+					<nav class="navbar navbar-expand-lg  navbar-light">
+						<div class="container">
+							  <a class="navbar-brand" href="donate.html">
+							  	<h2 class="text-white">Donate</h2>
+							  </a>
+							  <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="text-white lnr lnr-menu"></span>
+							  </button>-->
+
+							  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+							    <ul class="navbar-nav">
+									<li><a href="https://pranavms.ml">Home</a></li>
+							    </ul>
+							  </div>						
+						</div>
+					</nav>
+				</header>
+				<!-- End Header Area -->				
+			<div class="container" style="padding-top:90px; padding-bottom:100px;">
+				<div class="row justify-content-center align-items-center">
+                    <center>
+					<div class="col-lg-12 col-md-12 align-items-center">
+                        <div class="card" style="width: 30rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Donate</h5>
+                              <p class="card-text">
+                                UPI Address: <a href="upi://pay?pa=pranavms@dbs&pn=PranavMS">pranavms@dbs</a>
+                              </p>
+                              <p>
+                                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=pranavms@dbs&pn=PranavMS">
+                              </p>
+                            </div>
+                          </div>
+					</div>						
+                </center>
+				</div>
+			</div>
+            </section>
+            <script>
+                var Android = /(android)/i.test(navigator.userAgent); 
+                if(Android) { 
+                    window.location.href = "upi://pay?pa=pranavms@dbs&pn=PranavMS";
+                }
+            </script>
+        </body>
+        </html>
