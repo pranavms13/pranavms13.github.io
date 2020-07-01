@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6c66ebff.chunk.css",
-    "main.js": "/static/js/main.3d5def7b.chunk.js",
-    "main.js.map": "/static/js/main.3d5def7b.chunk.js.map",
+    "main.js": "/static/js/main.d369aeaf.chunk.js",
+    "main.js.map": "/static/js/main.d369aeaf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.37f0cb84.js",
     "runtime-main.js.map": "/static/js/runtime-main.37f0cb84.js.map",
     "static/css/2.ce1742a2.chunk.css": "/static/css/2.ce1742a2.chunk.css",
-    "static/js/2.4d3dcb99.chunk.js": "/static/js/2.4d3dcb99.chunk.js",
-    "static/js/2.4d3dcb99.chunk.js.map": "/static/js/2.4d3dcb99.chunk.js.map",
+    "static/js/2.fb7a00e0.chunk.js": "/static/js/2.fb7a00e0.chunk.js",
+    "static/js/2.fb7a00e0.chunk.js.map": "/static/js/2.fb7a00e0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.54e5f5f24f2eb5aa8dab5e9ebcdbae41.js": "/precache-manifest.54e5f5f24f2eb5aa8dab5e9ebcdbae41.js",
+    "precache-manifest.9da406bc93955d529f11c3c335db2771.js": "/precache-manifest.9da406bc93955d529f11c3c335db2771.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ce1742a2.chunk.css.map": "/static/css/2.ce1742a2.chunk.css.map",
     "static/css/main.6c66ebff.chunk.css.map": "/static/css/main.6c66ebff.chunk.css.map",
-    "static/js/2.4d3dcb99.chunk.js.LICENSE.txt": "/static/js/2.4d3dcb99.chunk.js.LICENSE.txt",
+    "static/js/2.fb7a00e0.chunk.js.LICENSE.txt": "/static/js/2.fb7a00e0.chunk.js.LICENSE.txt",
     "static/media/BS4.pdf": "/static/media/BS4.c0e931c7.pdf",
     "static/media/BS4.jpg": "/static/media/BS4.c9383d77.jpg",
     "static/media/EVAClogo.png": "/static/media/EVAClogo.fd476fe2.png",
@@ -32,14 +32,16 @@
     "static/media/recl.png": "/static/media/recl.6593ebd8.png",
     "static/media/solidity.svg": "/static/media/solidity.da793b47.svg",
     "static/media/telegram.svg": "/static/media/telegram.39a27915.svg",
+    "static/media/udemy-react.jpg": "/static/media/udemy-react.62584739.jpg",
+    "static/media/udemy-react.pdf": "/static/media/udemy-react.6f986bd6.pdf",
     "static/media/walogo.png": "/static/media/walogo.92a56e0d.png",
     "static/media/weblogo.jpeg": "/static/media/weblogo.d5e118f6.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.37f0cb84.js",
     "static/css/2.ce1742a2.chunk.css",
-    "static/js/2.4d3dcb99.chunk.js",
+    "static/js/2.fb7a00e0.chunk.js",
     "static/css/main.6c66ebff.chunk.css",
-    "static/js/main.3d5def7b.chunk.js"
+    "static/js/main.d369aeaf.chunk.js"
   ]
 }

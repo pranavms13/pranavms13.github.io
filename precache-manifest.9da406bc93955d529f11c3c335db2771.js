@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17e3cf53ed856d4d87aa9c4a452b1b05",
+    "revision": "f494c50b56f1a36d7992d0ebeb7a8d2b",
     "url": "/index.html"
   },
   {
-    "revision": "6aae60eb7d94274adbdf",
+    "revision": "9607e10673bfc409ab6c",
     "url": "/static/css/2.ce1742a2.chunk.css"
   },
   {
-    "revision": "c0a2a4aee3dd50e45625",
+    "revision": "1bc463a342be92e742da",
     "url": "/static/css/main.6c66ebff.chunk.css"
   },
   {
-    "revision": "6aae60eb7d94274adbdf",
-    "url": "/static/js/2.4d3dcb99.chunk.js"
+    "revision": "9607e10673bfc409ab6c",
+    "url": "/static/js/2.fb7a00e0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.4d3dcb99.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fb7a00e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0a2a4aee3dd50e45625",
-    "url": "/static/js/main.3d5def7b.chunk.js"
+    "revision": "1bc463a342be92e742da",
+    "url": "/static/js/main.d369aeaf.chunk.js"
   },
   {
     "revision": "be78975672ee4acbd102",
@@ -98,6 +98,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39a27915be12d86515f1039860a8d3fb",
     "url": "/static/media/telegram.39a27915.svg"
+  },
+  {
+    "revision": "625847393e323c0dd0a685f81e051d00",
+    "url": "/static/media/udemy-react.62584739.jpg"
+  },
+  {
+    "revision": "6f986bd6dcdff2ca4d6df1051dee4d15",
+    "url": "/static/media/udemy-react.6f986bd6.pdf"
   },
   {
     "revision": "92a56e0d11cc242165ab39ce36df2e88",
